@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
+  <link href="./css/estilos.css" rel="stylesheet"/>
+  <title>ingreso</title>
+</head>
+<body>
+  <header class="inicio">
+    <div>
+      
+      <img src="https://www.elempleo.com/co/sitio-empresarial/CompanySites/universidad-militar-nueva-granada/resources/images/logo-social.png" width="500"/> 
+    </div> 
+  </header>
+  <main>
+    <form class="login-form" action="">
+
+      <div class="input-container">
+        <img src="./images/username.PNG" width="40"/>
+        <input type="email" placeholder="Correo electrónico" id="email"></input>
+      </div>
+      <div class="input-container">
+        <img src="./images/password.PNG" width="40"/>
+        <input type="password" placeholder="Contraseña" id="password"></input><br></br>
+      </div>
+        <input type = "submit"  class="transparent-button" value = "Olvidé mi contraseña" formaction="olvido_password.html"><br></br>
+        <input class="login-button" value="Ingresar" type="button" 3  onclick="ajaxpost()"> 
+        <input class="login-button" value="Registrarse" type="submit" formaction="registrar.html">
+    </form>
+
+
+    <div id="info"  class="informacion"></div>
+    <script src = "js/script_index.js"></script>
+
+  </main>  
+  <footer>
+    
+  </footer>
+</body>
+
+</html>

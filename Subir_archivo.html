@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
+  <link href="./css/estilos.css" rel="stylesheet"/>
+  <title>Subir documento</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><div class="input-container">
+          <img src=https://upload.wikimedia.org/wikipedia/commons/c/c4/LOGO_UMNG.png width="50"/>
+          <h1>DOCENTES</h1><br></br>
+        </div></li>
+        <li><a href="archivos.html">ESTUDIANTES</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="image-container">
+      <img src=https://www.umng.edu.co/documents/20127/400564/image_gallery.png/e0730356-f7bc-2262-d7eb-0c77531c735a?t=1573067941832&imagePreview=1 width="200" alt="Imagen"/>
+      <span class="image-text"><h1><a href="Subir_archivo.html">Subir archivos</a></h1></span>
+    </div> 
+    <div>
+      <form class="login-form" action="php/archivo_subido.php" method="post" enctype="multipart/form-data">
+        <label>Observaciones</label>
+        <input type="text" name="observaciones" placeholder="Escriba sus observaciones sobre su entrega"></input><br><br>
+        <label>Archivos</label>
+        <input type="file" name="archivo"></input><br><br>
+        <input class="login-button" value="Subir" type="submit">
+      </form>
+      <script src = "js/script_subir_archivos.js"></script>
+    </div>
+  </main>
+  <footer>
+    <img src="http://www.elempleo.com/co/sitio-empresarial/CompanySites/universidad-militar-nueva-granada/resources/images/logo-social.png" width="200" heigth="50" style="margin-left: 100px;"/>
+    </br>
+    <img src="https://convalida.mineducacion.gov.co/SedeElectronica/sites/default/files/2019-08/channels-956_logo.png" width="300" height="90" style="margin-top: 10px; margin-left: 10px;"/>
+
+  </footer>
+</body>
+
+</html>

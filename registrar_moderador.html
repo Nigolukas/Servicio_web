@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
+  <link href="./css/estilos.css" rel="stylesheet"/>
+  <title>ingreso</title>
+</head>
+<body>
+  <header>
+    
+  </header>
+  <main>
+    <form class="login-form" action="Docentes.html">
+        <h1 class="registro">Registro</h1>
+
+      <div class="input-container">
+        <img src="./images/username.PNG" width="40"/>
+        <input type="text" placeholder="Nombre" id = "nombre"></input>
+      
+      </div>
+
+      <div class="input-container2">
+        <input type="number" placeholder="Cédula" id = "cedula"></input><br></br>
+      </div>
+      <div class="input-container2">
+        <input type="email" placeholder="Email" id = "email"></input><br></br>
+      </div>
+
+      <div class="input-container">
+        <img src="./images/password.PNG" width="40"/>
+        <input type="password" placeholder="Contraseña" id = "contrasena"></input><br></br>
+      </div>
+      <div class="input-container2">
+        <input type="password" placeholder="Repetir contraseñas" id = "contrasena2"></input><br></br>
+      </div>
+      
+        
+        <input class="login-button" value="Registrarse" type="button"   onclick="ajaxpost()">
+    </form>
+
+    <div id="info"  class="informacion"></div>
+    <script src = "js/script_registrar_moderador.js"></script>
+
+  </main>  
+  <footer class = "registro">
+    
+  </footer>
+</body>
+
+</html>

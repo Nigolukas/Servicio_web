@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
+  <link href="./css/estilos.css" rel="stylesheet"/>
+  <title>ingreso</title>
+</head>
+<body>
+  <header>
+    
+  </header>
+  <main>
+    <form class="login-form" action="">
+        <h1 class="registro">Registro estudiantes</h1>
+
+      <div class="input-container">
+        <img src="./images/username.PNG" width="40"/>
+        <input type="text"  id="nombre" placeholder="Nombre"></input>
+      
+      </div>
+
+      <div class="input-container2">
+        <input type="number" id="codigo" placeholder="Código estudiantil"></input><br></br>
+      </div>
+      <div class="input-container2">
+        <input type="email"  id="email" placeholder="Correo institucional"></input><br></br>
+      </div>
+
+      
+      
+        
+        <input class="login-button" value="Posgrado" type="button" onclick="ajaxposgrado()">
+        <input class="login-button" value="Pregrado" type="button" onclick="ajaxpregrado()">
+
+
+    </form>
+    <div id="info"  class="informacion"></div>
+    <script src = "js/script_registro_estudiantes.js"></script>
+  </main>  
+  <footer>
+    
+  </footer>
+</body>
+
+</html>
